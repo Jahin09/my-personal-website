@@ -1,0 +1,83 @@
+body{ 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+section{
+    
+    height: 1080px;px;
+    padding: 10px;
+    margin: 10px;
+}
+.half-width{
+width: 40%;
+float: left;
+padding-left: 2px;
+margin-left: 4px;
+}
+.half-width img{
+    width: 100%;
+}
+
+h2{ margin-top:100px;
+ margin-left: 60px; 
+}
+h3{ margin-top:100px;
+    font-size: 30px;
+    margin-left: 60px;
+    color: rgb(255, 2, 196);
+
+}
+p{
+    text-align: center;
+}
+.button{
+  margin-top: 90px;
+  margin-left: 60px;
+    text-decoration: none;
+    background-image: linear-gradient( 45deg,lightsalmon,tomato);
+    padding: 10px 20px;
+    border-radius: 6px;
+    color:whitesmoke;
+    font-weight:bold; 
+    padding-top: 2px;
+}
+.header{ 
+    background-repeat: no-repeat;
+    background-image: url(images/header-bg.png);
+}
+
+    .middle{
+        background-image: url(images/biography-bg.png);
+        background-repeat: no-repeat;
+    }
+    #qq{
+     text-align: center;  
+    }
+    *{
+        box-sizing: border-box;
+       
+    }
+    .column{
+        float: left;
+        width: 33.33%;
+        padding: 10px;
+    }
+    .row::after{
+content:"" ;
+display: table;
+clear: both;
+    }
+.footer{
+text-align: center;
+
+
+}
+#dd{
+    color:black ;
+    font-size: 15px;
+    padding: 0px;
+}
+h4{
+    background-color: rgb(6, 222, 255);
+    padding: 15px 28px;
+}
